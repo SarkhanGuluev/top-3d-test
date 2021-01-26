@@ -1,0 +1,83 @@
+@media (max-width: 320px) {
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+
+    header {
+        background: #FED600;
+        height: 2rem;
+        width: 100vw;
+    }
+
+    header > div {
+        visibility: hidden;
+    }
+
+    .content{
+        width: 100vw;
+    }
+
+    .about {
+        margin-top: .3rem;
+        display: grid;
+        grid-gap: 1rem;    
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about p {
+        width: 100%;
+        text-align: justify;
+        padding: 1rem;
+    }
+
+    .about-info p:first-child,
+    .links-border,
+    .presentation__tab p {
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .about-info p:last-child {
+        color: #ccc;
+        text-align: center;
+        font-size: .5rem;
+    }
+    .about button {
+        width: 70%;
+        height: 2rem;
+        margin: 1rem 15% 0 15%;
+        color: #fff;
+        background: #D2001C;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        margin: 1rem;
+        font-size: .7rem;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: #D2001C;
+    }
+
+    .presentation__tab > div {
+        display: none;
+    }
+    
+    iframe {
+        width: 90%;
+        margin: 5%;
+        margin-top: 2rem;
+    }
+}
