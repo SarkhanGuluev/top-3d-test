@@ -1,6 +1,10 @@
-@media (min-width: 321px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    body {
+body {
         font-family: 'Open Sans', sans-serif;
         display: flex;
         justify-content: center;
@@ -434,10 +438,4 @@
         margin: 5%;
         margin-top: 2rem;
     }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
